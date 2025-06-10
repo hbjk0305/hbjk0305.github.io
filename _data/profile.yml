@@ -11,7 +11,7 @@ positions:
 email: "hbjk0305@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
+github: hbjk0305
 twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -35,27 +35,26 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Seoul National University
+  logo: /assets/images/badges/snu_ui.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    B.S. in Artificial Intelligence
+    B.S. in Industrial Engineering
+    Summa Cum Laude (GPA 4.06/4.30, ranked 3rd)
+  date: Mar. 2018 - Aug. 2022
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Samsung Electronics
+  logo: /assets/images/badges/samsung_blue.png
+  position: >- 
+    Sound AI Researcher, Speech Intelligence Team, Samsung Research
+    Research Topic: On-device Sound Classification, Anomaly Detection, and Sound Event Detection
+  date: Jul. 2022 - Present
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Merit-based Scholarship
+  date: Spring 2019 - Fall 2022
+- name: Reporter Award
+  date: Nov. 2019
+- name: Samsung Research Award
+  date: Apr. 2025
