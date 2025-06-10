@@ -2,10 +2,10 @@ primary_name: "Jin Kyoung Hwangbo"  # This is the name that will be displayed on
 secondary_name: ""
 navbar_name: "JinKyoung Hwangbo"  # This is the name that will be displayed in the navbar
 
-positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# positions:
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+#   name: Position 1 with logo
+# - name: Position 2 without logo
 
 
 email: "hbjk0305@gmail.com"
@@ -63,8 +63,13 @@ experience:
 
 awards:
 - name: Samsung Research Award
+  content: presented by the ____
   date: Apr. 2025
 - name: Merit-based Scholarship
+  content: >-
+    presented by the President of Seoul National University <br>
+    <em>for outstanding academic performance</em>
   date: Spring 2019 - Fall 2022
 - name: Reporter Award
+  content: presented by the President of Seoul National University
   date: Nov. 2019
