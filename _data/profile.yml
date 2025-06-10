@@ -38,8 +38,8 @@ education:
 - name: Seoul National University
   logo: /assets/images/badges/snu_ui.png
   position: >- 
-    B.S. in Artificial Intelligence
-    B.S. in Industrial Engineering
+    B.S. in Artificial Intelligence\n
+    B.S. in Industrial Engineering\n
     Summa Cum Laude (GPA 4.06/4.30, ranked 3rd)
   date: Mar. 2018 - Aug. 2022
 
@@ -52,9 +52,9 @@ experience:
   date: Jul. 2022 - Present
 
 awards:
+- name: Samsung Research Award
+  date: Apr. 2025
 - name: Merit-based Scholarship
   date: Spring 2019 - Fall 2022
 - name: Reporter Award
   date: Nov. 2019
-- name: Samsung Research Award
-  date: Apr. 2025
