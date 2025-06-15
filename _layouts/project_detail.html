@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="container" style="max-width:900px;">
+  <ol class="breadcrumb mt-4">
+    <li><a href="{{ '/' | relative_url }}">{{ site.primary_name | default: site.title }}</a></li>
+    <li class="active">{{ page.title }}</li>
+  </ol>
+  <a class="btn btn-default mb-3" href="{{ '/' | relative_url }}#projects" role="button">Go back</a>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>
+        {{ page.title }}
+        {% if page.pub %}
+          <br>
+          <small>
+            {% if page.date %}{{ page.date }}{% endif %}
+            {% if page.pub %} (@{{ page.pub }}){% endif %}
+          </small>
+        {% endif %}
+      </h2>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      {% if page.cover %}
+        <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" class="img-thumbnail mb-3" style="max-width:400px;">
+      {% endif %}
+      {% if page.abstract %}
+        <div class="mb-4">
+          <strong>TL;DR</strong>
+          <div class="text-muted">{{ page.abstract }}</div>
+        </div>
+      {% endif %}
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% if page.videos %}
+  <br>
+  <div class="row">
+    <div class="center-block">
+      <table style="text-align: center; margin: 0 auto;">
+        <tbody>
+          {% for video in page.videos %}
+          <tr>
+            <td colspan="2">
+              <iframe width="560" height="315" src="{{ video.url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p>{{ video.caption }}</p>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.thumbnail_credit %}
+  <div class="row">
+    <div class="col-md-12">
+      <h6>The thumbnail image is from the following link: {{ page.thumbnail_credit }}</h6>
+    </div>
+  </div>
+  {% endif %}
+</div>
