@@ -24,7 +24,7 @@ navbar_title: Home
     {% assign pubs = site.projects | sort: "date" | reverse | where: "selected", true %}
     {% 
         include widgets/project_card.html 
-        item=pubs
+        projects=pubs
         title='<i class="fas fa-star"></i> Selected Projects'
     %}
 {% endif %}
