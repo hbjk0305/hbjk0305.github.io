@@ -5,7 +5,6 @@ start_date:     Mar 2024
 end_date:       Present
 selected:       true
 pub:            "Samsung Research"
-url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Commercialized</span>'
