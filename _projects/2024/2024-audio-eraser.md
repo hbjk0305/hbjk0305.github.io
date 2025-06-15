@@ -1,7 +1,7 @@
 ---
 layout:         project_detail
 title:          "Audio Eraser for Galaxy S25"
-start_date:     2024-03-01 00:01:00 +0800
+start_date:     Mar 2024
 end_date:       Present
 selected:       true
 pub:            "Samsung Research"

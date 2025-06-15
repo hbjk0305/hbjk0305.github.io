@@ -3,11 +3,16 @@ layout: default
 ---
 
 <div class="container" style="max-width:900px;">
-  <ol class="breadcrumb mt-4">
+  <ol class="breadcrumb mt-4 d-inline-block">
     <li><a href="{{ '/' | relative_url }}">{{ site.primary_name | default: site.title }}</a></li>
     <li class="active">{{ page.title }}</li>
   </ol>
-  <a class="btn btn-default mb-3" href="{{ '/' | relative_url }}#projects" role="button">Go back</a>
+  <div class="float-right mb-3">
+    <a class="btn btn-primary btn-sm" href="{{ '/' | relative_url }}#projects" role="button">
+      <i class="fas fa-arrow-left"></i> Go back
+    </a>
+  </div>
+  <div class="clearfix"></div>
   <div class="row">
     <div class="col-md-12">
       <h2>
@@ -25,9 +30,6 @@ layout: default
   <hr>
   <div class="row">
     <div class="col-md-12">
-      {% if page.cover %}
-        <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" class="img-thumbnail mb-3" style="max-width:400px;">
-      {% endif %}
       {% if page.abstract %}
         <div class="mb-4">
           <strong>TL;DR</strong>

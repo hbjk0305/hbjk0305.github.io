@@ -1,8 +1,8 @@
 ---
 layout:         project_detail
 title:          "Anomaly Sound Detection for Home Appliances"
-start_date:     2024-03-01 00:01:00 +0800
-end_date:       2024-12-31 00:00:00 +0800
+start_date:     Oct 2022
+end_date:       Dec 2024
 selected:       true
 pub:            "Samsung Research"
 url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
