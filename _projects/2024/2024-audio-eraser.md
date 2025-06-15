@@ -1,6 +1,6 @@
 ---
 title:          "Audio Eraser for Galaxy S25"
-date:           Mar 2024-
+date:           2022-03-01 00:01:00 +0800
 selected:       true
 pub:            "Samsung Research"
 url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
