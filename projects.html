@@ -8,7 +8,13 @@ body_attr: >-
 
 {% assign ongoing_projects = site.projects | where: "end_date", "Present" | concat: site.projects | where_exp: "item", "item.end_date == nil" | uniq: "title" %}
 {% assign finished_projects = site.projects | reject: "end_date", "Present" %}
-{% assign pubs_by_year = finished_projects | sort: "end_date" | reverse | group_by_exp: "item", "item.end_date | split: ' ' | last" %}
+{% assign pubs_by_year = finished_projects
+  | sort: "end_date"
+  | reverse
+  | group_by_exp: "item", "item.end_date | split: ' ' | last"
+  | sort: "name"
+  | reverse
+%}
 
 <div class="row">
     <div class="col-12 col-lg-10">
