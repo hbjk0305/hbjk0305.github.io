@@ -6,7 +6,9 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-{% assign ongoing_projects = site.projects | where_exp: "item", "item.end_date == 'Present' or item.end_date == nil" %}
+{% assign ongoing_projects = site.projects | where: "end_date", "Present" %}
+{% assign ongoing_projects_nil = site.projects | where_exp: "item", "item.end_date == nil" %}
+{% assign ongoing_projects = ongoing_projects | concat: ongoing_projects_nil %}
 {% assign finished_projects = site.projects | reject: "end_date", "Present" %}
 {% assign pubs_by_year = finished_projects | sort: "date" | reverse | group_by_exp: "item", "item.end_date | date: '%Y'" %}
 

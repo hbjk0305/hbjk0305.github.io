@@ -1,5 +1,5 @@
 ---
-layout:         publication_detail
+layout:         project_detail
 title:          "Audio Eraser for Galaxy S25"
 start_date:     2024-03-01 00:01:00 +0800
 end_date:       Present
