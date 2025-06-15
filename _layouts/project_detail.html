@@ -15,7 +15,7 @@ layout: default
         {{ page.title }}
         {% if page.pub %}
           <br>
-          <small>
+          <small class="text-muted" style="font-size: 70%;">
             {% if page.start_date %}{{ page.start_date }}{% endif %} 
             {% if page.end_date %}- {{ page.end_date }}{% endif %}
             {% if page.pub %} (@{{ page.pub }}){% endif %}
@@ -30,7 +30,9 @@ layout: default
       {% if page.abstract %}
         <div class="mb-4">
           <strong>TL;DR</strong>
-          <div class="text-muted">{{ page.abstract }}</div>
+          <div class="text-muted" style="background: #f8f9fa; border-left: 4px solid #007bff; padding: 0.75em 1em; border-radius: 0.25rem; margin-top: 0.5em;">
+            {{ page.abstract }}
+          </div>
         </div>
       {% endif %}
       <div class="content">
