@@ -1,7 +1,7 @@
 ---
 layout:         project_detail
 title:          Pitch Detection of Polyphonic Sound
-start_date:     Sep 2020
+start_date:     Sep
 end_date:       Dec 2020
 selected:       false
 pub:            "Term Project, Machine Listening, Seoul National University"

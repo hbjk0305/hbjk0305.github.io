@@ -4,7 +4,7 @@ title:          "Audio Eraser for Galaxy S25"
 start_date:     Mar 2024
 end_date:       Present
 selected:       true
-pub:            "Samsung Research"
+pub:            "Samsung Research."
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Commercialized</span>'
