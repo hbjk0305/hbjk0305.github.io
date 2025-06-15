@@ -1,4 +1,6 @@
 {% assign item = include.item %}
+<p>DEBUG: item is [{% if item %}NOT EMPTY{% else %}EMPTY{% endif %}]</p>
+<p>{{ item | inspect }}</p>
 <a href="{{ item.url | relative_url }}" class="text-reset text-decoration-none" style="display:block;">
   <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
     <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
