@@ -17,9 +17,9 @@ cover:          /assets/images/covers/audio-eraser.jpg
 ---
 
 
-<div style="margin:1em 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HinL5jCy_oI?t=2907s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-  <p style="text-align:center; color:#555; font-size:0.95em; margin-top:0.5em;">
+<div style="margin:1em 0; text-align:center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HinL5jCy_oI?start=2907" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <p style="color:#555; font-size:0.95em; margin-top:0.5em;">
     Official replay video of the Galaxy S25 Unpack event, introducing the<br>
     Audio Eraser as a key AI feature of the Galaxy S25.
   </p>
