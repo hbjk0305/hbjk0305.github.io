@@ -1,6 +1,4 @@
 {% assign item = include.item %}
-<p>DEBUG: item is [{% if item %}NOT EMPTY{% else %}EMPTY{% endif %}]</p>
-<p>{{ item | inspect }}</p>
 <a href="{{ item.url | relative_url }}" class="text-reset text-decoration-none" style="display:block;">
   <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
     <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
@@ -12,7 +10,6 @@
     </div>
     <div class="col-md-9 col-xl-10 p-3 pl-md-0">
       <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-      <p>{{ item | inspect }}</p>
       <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
       <p class="mt-0 mb-0 small">
         {% if item.start_date %}{{ item.start_date }}{% endif %}
