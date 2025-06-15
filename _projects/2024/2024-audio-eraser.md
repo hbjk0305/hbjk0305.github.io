@@ -11,7 +11,7 @@ url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Commercialized</span>'
 
 abstract: >-
-  I developed a **lightweight, on-device sound detection model** for **Samsung’s Audio Eraser** feature on the Galaxy S25 series. My work focused on building and validating a robust model that accurately classifies various sound types, enabling effective background noise removal in videos.
+  I developed a <strong>lightweight, on-device sound detection model</strong> for <strong>Samsung’s Audio Eraser</strong> feature on the Galaxy S25 series. My work focused on building and validating a robust model that accurately classifies various sound types, enabling effective background noise removal in videos.
 cover:          /assets/images/covers/audio-eraser.jpg
 
 ---
