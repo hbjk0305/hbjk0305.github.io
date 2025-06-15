@@ -11,7 +11,7 @@ pub:            Tobigs, Big Data Study Group
 
 abstract: >-
   Smootify is an AI-powered music streaming project that <strong>generates seamless, natural transitions</strong> between songs using MIDI data and deep learning, enabling infinite and uninterrupted listening experiences.
-cover:          https://user-images.githubusercontent.com/63901494/149273959-bb879fd6-fe99-4a87-be93-6d774b27a026.png
+cover:          /assets/images/covers/smootify.png
 
 links:
   code: https://github.com/ToBigsSound-1516/Smootify
