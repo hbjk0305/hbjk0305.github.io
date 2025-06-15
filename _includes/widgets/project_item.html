@@ -14,7 +14,7 @@
       <p class="mt-0 mb-0">
         {% if item.start_date %}{{ item.start_date }}{% endif %}
         {% if item.start_date and item.end_date %} - {% endif %}
-        {% if item.end_date %}{{ item.end_date }}{% endif %}
+        {% if item.end_date %}{{ item.end_date }}<br>{% endif %}
         <i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
       </p>
       <p class="mt-0 mb-0 text-muted">{{ item.abstract }}</p>
