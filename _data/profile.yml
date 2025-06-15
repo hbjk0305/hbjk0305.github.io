@@ -11,7 +11,7 @@ navbar_name: "JinKyoung Hwangbo"  # This is the name that will be displayed in t
 email: "hbjk0305@gmail.com"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: hbjk0305
+# github: hbjk0305
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -22,12 +22,13 @@ github: hbjk0305
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a sound AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a>, where I focus on on-device sound classification, sound source separation, and audio-visaul localization.
+    My research interests include machine learning for audio and speech, and multimodal learning. 
+    I have contributed to the <a href="https://www.youtube.com/watch?v=sixEkGyg2O8" target="_blank">Audio Eraser</a> for Galaxy S25 series, which allows users to remove unwanted background sounds from videos, 
+    and the <a href="https://youtu.be/opsje6mc7CM?si=cc-X_uY9Lbvhbbs9&t=729" target="_blank">Anomaly Sound Detection</a> for Home appliances, which diagnoses and alerts users to abnormal sounds in their devices.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I earned my B.S. in Artificial Intelligence and Industrial Engineering from <a href="https://en.snu.ac.kr/" target="_blank">Seoul National University</a>, graduating Summa Cum Laude.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -45,25 +46,27 @@ education:
 
 experience:
 - name: Samsung Electronics
-  # logo: /assets/images/badges/samsung_blue.png
+  logo: /assets/images/badges/samsung_blue.png
   position: >- 
     Sound AI Researcher, Global AI Center, Samsung Research <br>
     <em>Research Topic: On-device Sound Classification, Anomaly Detection, and Sound Event Detection</em>
   date: Jul. 2022 - Present
 - name: Samsung Electronics
+  logo: /assets/images/badges/samsung_blue.png
   position: >- 
     Research Intern, Global AI Center, Samsung Research <br>
     <em>Research Topic: Neural Bandwidth Extension</em>
   date: Summer 2021
-- name: <a href="https://hcclab.notion.site/Human-Centered-Computing-Lab-HCCL-3fc9cecbb5a642d1ada697c83430dc47" target="_blank" style="color:inherit;">HCC Lab</a>, Seoul National University
+- name: <a href="htps://hcclab.notion.site/Human-Centered-Computing-Lab-HCCL-3fc9cecbb5a642d1ada697c83430dc47" target="_blank" style="color:inherit;">HCC Lab</a>, Seoul National University
+  logo: /assets/images/badges/snu_ui.png
   position: >- 
     Research Intern, <i>advised by Prof.Bongwon Suh</i> <br>
     <em>Research Topic: ECG-based heart disease prediction</em>
   date: Summer 2020
 
 awards:
-- name: Samsung Research Award
-  content: presented by the ____
+- name: 2024 2nd half Samsung Research Awards
+  content: presented by the Director of Samsung Research
   date: Apr. 2025
 - name: Merit-based Scholarship
   content: >-
