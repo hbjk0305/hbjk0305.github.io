@@ -3,7 +3,7 @@
   <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
     <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
       {%- if item.cover -%}
-      <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+      <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" style="width: 100%; height: 140px; object-fit: cover; object-position: center;">
       {%- else -%}
       <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
       {%- endif -%}
@@ -15,7 +15,7 @@
         {% if item.start_date %}{{ item.start_date }}{% endif %}
         {% if item.start_date and item.end_date %} - {% endif %}
         {% if item.end_date %}{{ item.end_date }}<br> {% endif %}
-        <i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+        <i>{{ item.pub }}</i> {{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
       </p>
       <p class="mt-0 mb-0 text-muted">{{ item.abstract }}</p>
       <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
