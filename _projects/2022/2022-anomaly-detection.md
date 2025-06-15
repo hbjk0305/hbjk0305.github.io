@@ -1,8 +1,8 @@
 ---
 layout:         project_detail
-title:          "Audio Eraser for Galaxy S25"
+title:          "Anomaly Sound Detection for Home Appliances"
 start_date:     2024-03-01 00:01:00 +0800
-end_date:       Present
+end_date:       2024-12-31 00:00:00 +0800
 selected:       true
 pub:            "Samsung Research"
 url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
@@ -11,8 +11,8 @@ url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Commercialized</span>'
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/audio-eraser.jpg
+  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. 123412341234
+cover:          /assets/images/covers/smart-things.jpg
 
 ---
 
