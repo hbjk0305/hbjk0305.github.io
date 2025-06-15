@@ -3,12 +3,8 @@ layout: default
 ---
 
 <div class="container" style="max-width:900px;">
-  <ol class="breadcrumb mt-4 d-inline-block">
-    <li><a href="{{ '/' | relative_url }}">{{ site.primary_name | default: site.title }}</a></li>
-    <li class="active">{{ page.title }}</li>
-  </ol>
   <div class="float-right mb-3">
-    <a class="btn btn-primary btn-sm" href="{{ '/' | relative_url }}#projects" role="button">
+    <a class="btn btn-light btn-sm" href="{{ '/' | relative_url }}#projects" role="button">
       <i class="fas fa-arrow-left"></i> Go back
     </a>
   </div>
@@ -20,7 +16,8 @@ layout: default
         {% if page.pub %}
           <br>
           <small>
-            {% if page.date %}{{ page.date }}{% endif %}
+            {% if page.start_date %}{{ page.start_date }}{% endif %} 
+            {% if page.end_date %}- {{ page.end_date }}{% endif %}
             {% if page.pub %} (@{{ page.pub }}){% endif %}
           </small>
         {% endif %}
