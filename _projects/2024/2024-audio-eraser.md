@@ -11,25 +11,25 @@ url:            "https://www.samsung.com/us/support/answer/ANS10004604/"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Commercialized</span>'
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
+  I developed a **lightweight, on-device sound detection model** for **Samsung’s Audio Eraser** feature on the Galaxy S25 series. My work focused on building and validating a robust model that accurately classifies various sound types, enabling effective background noise removal in videos.
 cover:          /assets/images/covers/audio-eraser.jpg
 
 ---
 
-## Introduction
 
-_Audio Eraser for Galaxy S25_ is a feature developed at **Samsung Research** that allows users to remove unwanted background sounds from videos on their Galaxy S25 devices.
+<div style="margin:1em 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HinL5jCy_oI?t=2907s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <p style="text-align:center; color:#555; font-size:0.95em; margin-top:0.5em;">
+    Official replay video of the Galaxy S25 Unpack event, introducing the<br>
+    Audio Eraser as a key AI feature of the Galaxy S25.
+  </p>
+</div>
 
-## Key Features
+_Audio Eraser_ is an AI-powered feature introduced with the **Samsung Galaxy S25 series** that enables users to remove unwanted background sounds from videos directly on their device. Leveraging advanced on-device AI, Audio Eraser can **identify and separate** up to six types of sounds—including _voices, music, wind, crowds, nature,_ and _general noise_—allowing users to selectively reduce or eliminate distracting audio elements while preserving the sounds they want to keep.
 
-- On-device audio separation and noise removal
-- Real-time processing for user convenience
-- Integrated with Galaxy S25’s native video editor
+<br>
+My primary contribution was the development of the **detection model** that identifies the type of sound prior to the separation process. This model was specifically designed to be **lightweight** and highly efficient for **on-device** deployment, ensuring **fast inference** without heavy computational demands.
 
-## Links
+### Link
 
-- [Official Support Page](https://www.samsung.com/us/support/answer/ANS10004604/)
-
-## Acknowledgements
-
-Photo by Pineapple Supply Co. on Unsplash.
+- Official article featuring interviews with my team: [Samsung Newsroom: Designing With the User in Mind – Inside the Advanced Research Behind Audio Eraser](https://news.samsung.com/global/interview-designing-with-the-user-in-mind-inside-the-advanced-research-behind-audio-eraser)

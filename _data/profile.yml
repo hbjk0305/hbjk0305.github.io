@@ -22,13 +22,13 @@ email: "hbjk0305@gmail.com"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a sound AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a>, where I focus on on-device sound classification, sound source separation, and audio-visaul localization.
-    My research interests include machine learning for audio and speech, and multimodal learning. 
-    I have contributed to the <a href="https://www.youtube.com/watch?v=sixEkGyg2O8" target="_blank">Audio Eraser</a> for Galaxy S25 series, which allows users to remove unwanted background sounds from videos, 
-    and the <a href="https://youtu.be/opsje6mc7CM?si=cc-X_uY9Lbvhbbs9&t=729" target="_blank">Anomaly Sound Detection</a> for Home appliances, which diagnoses and alerts users to abnormal sounds in their devices.
+    I am a sound AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a>, where I focus on on-device sound classification, sound source separation, and audio-visual localization.
+    My research interests include machine learning for audio and speech, as well as multimodal learning. 
+    I have contributed to the development of <a href="https://www.youtube.com/watch?v=sixEkGyg2O8" target="_blank">Audio Eraser</a> for the Galaxy S25 series, which enables users to remove unwanted background sounds from videos, 
+    and <a href="https://youtu.be/opsje6mc7CM?si=cc-X_uY9Lbvhbbs9&t=729" target="_blank">Anomaly Sound Detection</a> for home appliances, which diagnoses and alerts users to abnormal sounds in their devices.
   </p>
   <p>
-    I earned my B.S. in Artificial Intelligence and Industrial Engineering from <a href="https://en.snu.ac.kr/" target="_blank">Seoul National University</a>, graduating Summa Cum Laude.
+    I earned my B.S. in Artificial Intelligence and Industrial Engineering from <a href="https://en.snu.ac.kr/" target="_blank">Seoul National University</a>, graduating summa cum laude.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
