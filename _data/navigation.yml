@@ -5,5 +5,7 @@ pages:
   url: /
 - name: Projects
   url: /projects
-- name: Publications
-  url: /publications
+# - name: Publications
+#   url: /publications
+- name: CV
+  url: https://docs.google.com/document/d/1MGOSkamOZSLdYVNLFqMIs-sLrZFH08tpwAVXRoGWT34/edit?usp=sharing
