@@ -44,3 +44,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path.html
+
+# Analytics
+google_analytics:
+  id: G-VW4E50PFTM
+
