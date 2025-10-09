@@ -28,4 +28,5 @@ For mashup point detection, Smootify employs Dynamic Time Warping (DTW) and dist
 ### Demo
 <img src="images/smootify_demo1.png" width=300><img src="images/smootify_demo2.png" width=300>
 
-The demo page is [here](https://smootify-tobigs1516.netlify.app/project) and code is [here](https://github.com/ToBigsSound-1516/Smootify).
+### Resources
+- demo page is [here](https://smootify-tobigs1516.netlify.app/project) and code is [here](https://github.com/ToBigsSound-1516/Smootify).

@@ -19,7 +19,7 @@ cover:          /assets/images/covers/audio-eraser.jpg
 <div style="margin:1em 0; text-align:center;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/HinL5jCy_oI?start=2907" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
   <p style="color:#555; font-size:0.95em; margin-top:0.5em;">
-    Official replay video of the Galaxy S25 Unpack event, introducing the<br>
+    Official replay video of the Galaxy S25 Unpacked event, introducing the<br>
     Audio Eraser as a key AI feature of the Galaxy S25.
   </p>
 </div>
@@ -29,6 +29,6 @@ _Audio Eraser_ is an AI-powered feature introduced with the **Samsung Galaxy S25
 <br>
 My primary contribution was the development of the **detection model** that identifies the type of sound prior to the separation process. This model was specifically designed to be **lightweight** and highly efficient for **on-device** deployment, ensuring **fast inference** without heavy computational demands.
 
-### Link
+### Links
 
 - Official article featuring interviews with my team: [Samsung Newsroom: Designing With the User in Mind – Inside the Advanced Research Behind Audio Eraser](https://news.samsung.com/global/interview-designing-with-the-user-in-mind-inside-the-advanced-research-behind-audio-eraser)

@@ -12,7 +12,8 @@ pub:            "Bachelor's Thesis in Industrial Engineering, Seoul National Uni
 abstract: >-
   An empirical study examining whether bandwidth limitations in digital speech affect emotional transmission.
 # cover:          /assets/images/covers/smart-things.png
-
+links:
+  Paper (KOR): 2022/2022-emotion_report.pdf
 ---
 
 ### Problem & Motivation
@@ -55,3 +56,7 @@ Emotion type significantly influenced recognition performance :
 
 ### Conclusion
 This study provides empirical evidence that linguistic content preservation is sufficient for emotional communication in Korean speech, contradicting assumptions from Western language research. The findings suggest that multimodal approaches (combining audio with visual cues) may be necessary for emotions like disgust that are difficult to convey through voice alone.
+
+
+### Resources
+- Paper: [[KOR]](2022-emotion_report.pdf)
