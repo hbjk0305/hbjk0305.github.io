@@ -2,7 +2,7 @@
 layout:         project_detail
 title:          "Audio Eraser for Galaxy S25"
 start_date:     Mar 2024
-end_date:       Present
+end_date:       Jun 2026
 selected:       true
 pub:            "Samsung Research."
 # pub_pre:        "Submitted to "
@@ -17,10 +17,10 @@ cover:          /assets/images/covers/audio-eraser.jpg
 
 
 <div style="margin:1em 0; text-align:center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HinL5jCy_oI?start=2907" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sixEkGyg2O8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
   <p style="color:#555; font-size:0.95em; margin-top:0.5em;">
-    Official replay video of the Galaxy S25 Unpacked event, introducing the<br>
-    Audio Eraser as a key AI feature of the Galaxy S25.
+    Official Samsung video demonstrating the Audio Eraser feature<br>
+    on the Galaxy S25 series.
   </p>
 </div>
 

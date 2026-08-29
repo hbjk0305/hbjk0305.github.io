@@ -25,9 +25,9 @@ short_bio: >-
     I am an M.S. student in Computer Science at UIUC. My research interests include but are not limited to audio understanding, multimodal learning, efficient deep learning.
   </p>
   <p>
-    Previously, I worked at Samsung Electronics as a Research Engineer in the Mobile eXperience (MX) Business and as an AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a>.
+    Previously, I worked at Samsung Electronics as  an AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a> and in the Mobile eXperience (MX) Business.
     I developed <a href="https://www.youtube.com/watch?v=sixEkGyg2O8" target="_blank">Audio Eraser</a> for the Galaxy S25 series
-    and contributed to a diagnosis system for Samsung home appliances by developing an <a href="https://youtu.be/opsje6mc7CM?si=cc-X_uY9Lbvhbbs9&t=729" target="_blank">Abnormal Sound Classification</a> model.
+    and contributed to a diagnosis system for Samsung home appliances.
   </p>
   <p>
     I earned my B.S. in Industrial Engineering and Artificial Intelligence from <a href="https://en.snu.ac.kr/" target="_blank">Seoul National University</a>.
@@ -40,42 +40,45 @@ portrait_url: /assets/images/photos/portrait.jpg
 education:
 - name: University of Illinois Urbana-Champaign
   logo: /assets/images/badges/Illinois_logo_fullcolor_rgb.png
-  position: >- 
+  position: >-
     MS Student in Computer Science
-  date: Aug 2026&mdash;May 2028 (Expected)  
+  date: Aug 2026&mdash;May 2028 (Expected)
 - name: Seoul National University
   logo: /assets/images/badges/snu_ui.png
-  position: >- 
+  position: >-
     B.S. in Industrial Engineering<br>
     B.S. in Artificial Intelligence<br>
   date: Mar 2018&mdash;Aug 2022
-
+- name: Sejong Academy of Science and Arts
+  logo: /assets/images/badges/sasa_logo.png
+  position: >-
+    National STEM-gifted High School
+  date: Mar 2015&mdash;Jan 2018
+  
 experience:
 - name: Samsung Electronics
   logo: /assets/images/badges/samsung_blue.png
-  position: >- 
-    Research Engineer, Mobile eXperience Business
-  date: Oct 2025&mdash;Jun 2026
+  position: >-
+    Researcher, Samsung Research / Mobile eXperience Business
+  date: Jul 2022&mdash;Jun 2026
 - name: Samsung Electronics
   logo: /assets/images/badges/samsung_blue.png
-  position: >- 
-    Researcher, Samsung Research
-  date: Jul 2022&mdash;Sep 2025
-- name: Samsung Electronics
-  logo: /assets/images/badges/samsung_blue.png
-  position: >- 
+  position: >-
     Research Intern, Samsung Research
   date: Summer 2021
+- name: Seoul National University
+  logo: /assets/images/badges/snu_ui.png
+  position: >-
+    Research Intern, Human Centered Computing Lab
+  date: Summer 2020
+  
 
 awards:
 - name: Samsung Research Award
   content: presented by the Director of Samsung Research
-  date: Dec 2025
+  date: Dec 2024
 - name: Merit-based Scholarship (Top 5%) @ SNU
   content: >-
     presented by the President of Seoul National University <br>
     <em>for outstanding academic performance</em>
   date: 2019&mdash;2022
-- name: Reporter Award @ SNU
-  content: presented by the President of Seoul National University
-  date: Nov 2019
