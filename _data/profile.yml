@@ -22,7 +22,7 @@ linkedin: hbjk
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an M.S. student in Computer Science at UIUC. My research interests include but are not limited to audio understanding, multimodal learning, efficient deep learning.
+    I am an M.S. student in Computer Science at University of Illinois Urbana-Champaign (UIUC), advised by <a href="https://minjekim.com/" target="_blank">Prof. Minje Kim</a>. My research interests include but are not limited to audio understanding, multimodal learning, efficient deep learning.
   </p>
   <p>
     Previously, I worked at Samsung Electronics as  an AI researcher at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a> and in the Mobile eXperience (MX) Business.
@@ -54,7 +54,7 @@ education:
   position: >-
     National STEM-gifted High School
   date: Mar 2015&mdash;Jan 2018
-  
+
 experience:
 - name: Samsung Electronics
   logo: /assets/images/badges/samsung_blue.png
